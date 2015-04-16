@@ -14,16 +14,22 @@ header .container, main .container, footer .container {
 header {
   background: white;
   overflow: auto;
+  font-size: x-large;
+  color: red;
+  padding-bottom: 10px;
 }
 
 header h1 {
   float: left;
   width: 570px;
+  font-size: x-large;
+
 }
 
 header nav {
   float: right;
   width: 285px;
+  font-size: x-large;
 }
 
 main {
@@ -34,12 +40,14 @@ main {
 main .left {
   float: left;
   width: 570px;
+  border: 2px dashed green;
 }
 
 main .right {
   float: right;
   width: 285px;
 }
+
 
 footer .left {
   float: left;
