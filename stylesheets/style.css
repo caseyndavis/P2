@@ -22,14 +22,14 @@ header {
 header h1 {
   float: left;
   width: 570px;
-  font-size: xxxxx-large;
+  font-size: xx-large;
 
 }
 
 header nav {
   float: right;
   width: 285px;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 main {
@@ -40,7 +40,21 @@ main {
 main .left {
   float: left;
   width: 570px;
-  border: 2px dashed green;
+}
+
+main .faqLeft {
+  float: left;
+  width: 570px;
+  border: 4px dashed yellow;
+  background: cyan;
+  color: red;
+}
+
+main h1,h2,h3 {
+  float: left;
+  width: 570px;
+  font-size: x-large;
+
 }
 
 main .right {
